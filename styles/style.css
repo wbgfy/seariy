@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+  list-style: none;
+}
+
+.header {
+  background-color: rgb(30, 8, 30);
+  width: 100%;
+  height: 90px;
+}
+
+.header__container {
+  margin: 0 auto;
+  width: 80%;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container__logo {
+  width: 7%;
+  height: 80px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+}
+
+.nav a {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 89.5%;
+}
+
+.burgermenu {
+  width: 67px;
+  height: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.burgermenu__line {
+  width: 67px;
+  height: 2px;
+  background-color: white;
+  border-radius: 100px;
+}
+
+@media only screen and (max-width: 1920px) {
+  .burgermenu__line {
+    width: 0px;
+    height: 0px;
+  }
+  .nav {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 1680px) {
+  .burgermenu__line {
+    width: 0px;
+    height: 0px;
+  }
+  .nav {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 1366px) {
+  .burgermenu__line {
+    width: 0px;
+    height: 0px;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  .burgermenu__line {
+    width: 0px;
+    height: 0px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .burgermenu__line {
+    width: 0px;
+    height: 0px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .burgermenu__line {
+    width: 0px;
+    height: 0px;
+  }
+  .nav {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .burgermenu__line {
+    width: 67px;
+    height: 2px;
+  }
+  .nav {
+    display: none;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .burgermenu__line {
+    width: 67px;
+    height: 2px;
+  }
+}
+@media only screen and (max-width: 533px) {
+  .burgermenu__line {
+    width: 67px;
+    height: 2px;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .burgermenu__line {
+    width: 67px;
+    height: 2px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .burgermenu__line {
+    width: 67px;
+    height: 2px;
+  }
+}/*# sourceMappingURL=style.css.map */
